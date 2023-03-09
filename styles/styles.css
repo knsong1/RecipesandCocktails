@@ -1,0 +1,143 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.search-bar {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+#chef-img img {
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+#chef-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+#bio {
+    margin: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#break {
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+h5 {
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    opacity: 0.7;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+} 
+
+h5:hover {
+ background-color: white;
+ color:black;
+}
+
+#description {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.c1 {
+    transform: rotate(-42deg);
+ }
+.c2 {
+    transform: rotate(-35deg);
+ }
+ .c3 {
+    transform: rotate(-30deg);
+}
+ .c4 {
+    transform: rotate(-24deg);
+ }
+ .c5 {
+    transform: rotate(-18deg);
+}
+.c6 {
+    transform: rotate(-12deg);
+}
+.c7 {
+    transform: rotate(-6deg);
+}
+.c8 {
+    transform: rotate(0deg);
+}
+.c9 {
+    transform: rotate(6deg);
+}
+.c10 {
+    transform: rotate(12deg);
+ }
+.c11 {
+     transform: rotate(18deg);
+}
+ .c12 {
+     transform: rotate(24deg);
+ }
+ .c13 {
+    transform: rotate(30deg);
+ }
+ .c14 {
+     transform: rotate(36deg);
+ }
+ .c15 {
+     transform: rotate(42deg);
+ }
+    
+ 
+    h1 span {
+    transform-origin: bottom;
+    height: 500px;
+    width: 50px;
+    left: 50;
+    top: 50;
+    position: absolute;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+    h1 span {
+        height: 35%;
+    }
+ }
+
+    #acc {
+    padding-right: 53px;
+  
+    
+ }
+
+ 
+ 
