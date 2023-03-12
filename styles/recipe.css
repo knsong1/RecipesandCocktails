@@ -10,6 +10,7 @@ body {
     margin: 30px;
 }
 
+
 #meal-img  {
     width: 40%;
     display: block;
@@ -55,6 +56,9 @@ body {
 #meal-instructions ol {
     font-size: 20px;   
 }
+
+#meal-img {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
 
 .flexbox {
     padding-left: 20px;
